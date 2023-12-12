@@ -1,0 +1,25 @@
+# Author:Mason Andrews
+
+def add_numbers(num1, num2):
+    return num1 + num2
+
+def multiply_numbers(num1, num2):
+    return num1 * num2
+
+def combined_operation(num1, num2, num3):
+    sum_result = add_numbers(num1, num2)
+    product_result = multiply_numbers(sum_result, num3)
+
+    return product_result
+
+test_case1_result = combined_operation(2, 3, 4)
+print("Test Case 1 Result:", test_case1_result)
+
+test_case2_result = combined_operation(5, 2, 3)
+print("Test Case 2 Result:", test_case2_result)
+
+test_case3_result = combined_operation(1, 0, 10)
+print("Test Case 3 Result:", test_case3_result)
+
+test_case4_result = combined_operation(-1, 5, 2)
+print("Test Case 4 Result:", test_case4_result)
